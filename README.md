@@ -1,4 +1,4 @@
-# Customer CRUD with Hexagonal Architecture
+# Online Language Course with Hexagonal Architecture
 
 Este projeto é um CRUD básico de cadastro de clientes, implementado em NodeJS com TypeScript, seguindo os princípios da Hexagonal Architecture (Ports and Adapters).
 
@@ -14,3 +14,17 @@ Este projeto é um CRUD básico de cadastro de clientes, implementado em NodeJS 
    ```bash
    git clone <URL_DO_REPOSITORIO>
    cd customer-crud-hexagonal
+
+# Online Language Course - Student Management
+
+## Histórico de Alterações
+
+### [11/08/2024]
+**Adicionar funcionalidade CRUD para gerenciamento de alunos**
+
+- Implementada a entidade de domínio `Student`
+- Criada a camada de serviço para operações com alunos
+- Desenvolvido repositório em memória para armazenar alunos
+- Adicionado controlador HTTP para endpoints relacionados a alunos
+- Integradas operações CRUD: criar, ler, atualizar, excluir
+- Atualizada a estrutura do projeto para alinhar com a Arquitetura Hexagonal
